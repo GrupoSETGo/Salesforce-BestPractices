@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Permite determinar si se ejecutan ciertos desencadenadores de APEX o no.</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Opportunity_Trigger__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Campo para activar e inactivar el trigger de oportunidades.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Dejar en falso para que no se ejecute el desencadenador del objeto Opportunity</inlineHelpText>
+        <label>Opportunity_Trigger</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>Trigger On/Off</label>
+    <visibility>Public</visibility>
+</CustomObject>
